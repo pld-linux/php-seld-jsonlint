@@ -5,12 +5,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	JSON Lint for PHP
 Name:		php-seld-%{pkgname}
-Version:	1.1.0
+Version:	1.1.2
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/Seldaek/jsonlint/archive/%{version}/%{pkgname}-%{version}.tar.gz
-# Source0-md5:	289af78b879b8bb138c17a615c5fc0bf
+# Source0-md5:	0905d5632869656ef180e27485758440
 URL:		https://github.com/Seldaek/jsonlint
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.461
