@@ -2,7 +2,6 @@
 # - package cli tool
 %define		pkgname	jsonlint
 %define		php_min_version 5.0.0
-%include	/usr/lib/rpm/macros.php
 Summary:	JSON Lint for PHP
 Name:		php-seld-%{pkgname}
 Version:	1.5.0
